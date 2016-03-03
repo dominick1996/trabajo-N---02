@@ -1,0 +1,36 @@
+body{
+	background: orange;
+}
+.contenedor{
+	width: 960px;
+	margin: 30px auto;
+}
+.menu-lista{
+	list-style-type:none;
+	margin: 10px;
+	padding: 20px;
+}
+.menu-item{
+	display: inline-block;
+
+}
+.menu-link{
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration:none;
+
+}
+.menu-link:hover{
+	text-decoration:underline;
+	box-shadow: 05px 10px purple;
+	transition: 0.5s;
+
+}
+nav{
+	text-align: center;
+}
+.menu-link{
+	font-size: 15px;
+	background: white;
+	color: black;
+}
